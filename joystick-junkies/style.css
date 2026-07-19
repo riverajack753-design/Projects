@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap');
+
+main{
+	max-width: 1000%;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 10px;
+}
+
+footer{
+	max-width: 1000px;
+	margin: 30px auto;
+	padding: 10px;
+	font-style: italic;
+	text-align: center;
+}
+
+Header{
+	background: linear-gradient(155deg, #3018e7 19%, #583de1 76%);
+	color:#FFFFFF;
+	text-align: center;
+	padding: 20px;
+}
+Header h1{
+	line-height: 200%;
+	margin: 0;
+	color: white;
+	
+}
+nav{
+	font-weight: Bold;
+	background: linear-gradient(to right, #3399ff 0%, #00ff00 100%);
+	text-align: center;
+	line-height: 200%;
+	border-top: 5px solid linear-gradient(to right, #3399ff 0%, #00ff00 100%);
+	border-bottom: 5px solid linear-gradient(to right, #3399ff 0%, #00ff00 100%);
+}
+
+
+body{
+	background-color:#FFFFFF;
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+}
+h1,h2,h3{
+	font-family: "Play", sans-serif;
+	color: #9966ff;
+}
+
+logo{
+	max-width: 100%;
+	height: auto;
+	padding-top: 15px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+.home-hero{
+	background-image: url(images/hero-image.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: top center;
+}
+
+.home-hero h1{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding-top: 115px;
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+
+h2 {
+    border-bottom: 2px solid #1C2995;
+    display: flex;
+    padding: 5px;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+
+h3 {
+    font-size: 1.7em;
+}
+
+.logo{
+	max-width: 100%;
+	height: auto;
+	padding-top: 15px;
+}
+
+.logo:hover{
+	opacity: 0.8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav li{
+	display: inline;
+	padding: 10px;
+}
+
+nav a:link{
+	color: white;
+}
+
+nav a:visited{
+	color: whitw;
+}
+
+nav a:hover{
+	color: #ff0000;
+}
+
+nav a:active{
+	color: #00ffff;
+}
+
+.float-right{
+	max-width: 40%;
+	height: auto;
+	box-shadow: black 8px 8px 8px 0;
+	border: white solid 4px;
+	border-radius: auto;
+	float: right;
+	margin: 30px 30px 30px 0;
+}
+ 
+ .float-left{
+ 	max-width: 40%;
+	height: auto;
+	box-shadow: black 6px 6px 6px 0;
+	border: white solid 4px;
+	border-radius: auto;
+	float: left;
+	margin: 30px 30px 30px 0;
+ }
+
+.text-box{
+	float: right;
+	max-width: 40%;
+	height: auto;
+	margin-top: 10px 20px 20px 0;
+	margin-bottom: 10px 20px 20px 0;
+	background-color:#1C2995;
+	border-radius: auto;
+	padding: 30px;
+	color: white;
+
+}
+
+#linebar{color: white;
+	margin: 0;
+	font-family: "Play", sans-serif;
+}
+
+.text-box h2{
+	color: white;
+	font-size: 1.5em;
+}
+
+a.button-design{
+	color: white;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 8px 25px;
+	font-weight: Bold;
+}
+a.button-design:link{
+	background-color: #ff0000; 
+}
+a.button-design:hover{
+	background-color: #00ffff;
+}
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2.5em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	h3{
+		font-size: 1.3em;
+	}
+	main,
+	footer{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 2em;
+	}
+	.home-hero{
+		height: 125px;
+		font-size: 1.5em;
+		padding-top: 45px;
+	}
+	.home-hero h1{
+		height: 125px;
+		font-size: 1.5px;
+		padding-top: 45px;
+	}
+.float-right,
+.float-left{
+	display: none;
+}
+
+.text-box{
+	float: none;
+	max-width: 100%;
+	display: block;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+

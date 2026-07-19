@@ -1,0 +1,74 @@
+.home-hero{
+	background-image:url(puppies-images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color:#042837;
+	padding: 10px 10px 10px 30px;
+
+}
+
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+blockquote{
+	background-color: #eeeeee;
+	border-left: 10px solid gray;
+	padding: 30px;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+h3{
+	text-align: center;
+}
+
+svg{
+	width: 150px;
+	filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(7498%) hue-rotate(117deg) brightness(122%) contrast(88%);
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightskyblue;
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 65px;
+}
+
+p{
+	text-align: center;
+}
+
+ul{
+	font-size: 20px;
+	font-weight: Bold;
+	background: #ccf3ff;
+	text-align: center;
+	line-height: 400%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 65px;
+	list-style-type: none;
+}
+
+body{
+	background-color: lightcyan;
+}
+
+
